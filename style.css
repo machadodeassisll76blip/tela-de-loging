@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #4a54da, #6f81d1, #8fa1e0);
+    background: linear-gradient(135deg, #4A54DA, #8A2BE2);
     margin: 0;
     padding: 0;
 }
@@ -12,6 +12,50 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
     margin: 200px; 
+}
+
+.login{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.password-container {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.user {
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.password {
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.remember-me {
+    padding: 10px;
+    border-radius: 20px;
+}
+.entrar {
+    padding: 10px;
+    width: 400px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background-color: #4a54da;
+}
+
+.entrar:hover{
+    background-color: #373EA3; /* Mudar levemente o tom da cor */
+    transform: translateY(-2px); /* Levanta o botão levemente */
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Adiciona sombra de profundidade */
 }
 
 footer {
