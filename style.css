@@ -1,20 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #4A54DA, #8A2BE2);
+    background-color: #2C5F2D;
     margin: 0;
     padding: 0;
 }
 
 .login-container {
-    background-color: #7b99c5;
-    padding: 20px;
-    border-radius: 60px;
+    background-color: #97BC62FF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    margin: 200px; 
+    padding: 40px;
+    width: 500px;
+    height: 700px;
+    margin-right: auto; 
 }
 
-.login{
+/* 
+.logo {
+    padding: 40px;
+    width: -500px;
+    height: 700px;
+    margin-right: auto; 
+}
+*/
+
+.login {
     border-radius: 20px;
     padding: 10px;
 }
